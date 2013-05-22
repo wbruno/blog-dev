@@ -3,14 +3,14 @@
  * The template for displaying single content. Used for single.
  *
  * @package WordPress
- * @subpackage Twenty_Twelve
- * @since Twenty Twelve 1.0
+ * @subpackage wbruno
+ * @since wbruno 0.0.1
  */
 ?>
 
 <article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 
-	<header>
+	<header role="heading">
 		<h1 class="entry-title" title="<?php the_title(); ?>">
 			<?php the_title(); ?></h1>
 
@@ -23,7 +23,7 @@
 		<?php the_content('<p>Leia o restante deste post &raquo;</p>'); ?>
 
 	</div><!-- .post-content -->
-	<footer>
+	<footer role="complementary">
 		<p><?php the_tags(); ?></p>
 		<?php wp_link_pages(); ?>
 		<?php edit_post_link(__('Editar', 'wbruno')); ?>

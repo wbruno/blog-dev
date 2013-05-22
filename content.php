@@ -4,13 +4,13 @@
  *
  * @package WordPress
  * @subpackage wbruno
- * @since wbruno 1.0
+ * @since wbruno 0.0.1
  */
 ?>
 
 <article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 
-	<header>
+	<header role="heading">
 		<h2 class="entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
 			<?php the_title(); ?></a></h2>
 
@@ -24,7 +24,7 @@
 		<?php the_content('Leia &raquo; ' . get_the_title() ); ?>
 
 	</div><!-- .post-content -->
-	<footer>
+	<footer role="complementary">
 		<?php wp_link_pages(); ?>
 		<?php edit_post_link(__('Editar', 'wbruno')); ?>
 	</footer>

@@ -6,10 +6,10 @@
  *
  * @package WordPress
  * @subpackage wbruno
- * @since wbruno 1.0
+ * @since wbruno 0.0.1
  */
 ?>
-	<aside id="sidebar" class="fright">
+	<aside id="sidebar" class="fright" role="complementary">
 		<ul>
 			<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
 			<li>
@@ -20,4 +20,4 @@
 			</li>
 			<?php endif; ?>
 		</ul>
-	</aside><!-- /sidebar -->
+	</aside><!-- #sidebar -->

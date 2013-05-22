@@ -10,7 +10,7 @@
 
 <article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 
-	<header>
+	<header role="heading">
 		<h1 class="entry-title" title="<?php the_title(); ?>">
 			<?php the_title(); ?></h1>
 		<small class="fright"><?php comments_popup_link('Nenhum coment&aacute;rio', '(1) coment&aacute;rio', '(%) coment&aacute;rios', 'comments'); ?></small>
@@ -20,7 +20,7 @@
 		<?php the_content('<p>Leia o restante deste post &raquo;</p>'); ?>
 
 	</div><!-- .post-content -->
-	<footer>
+	<footer role="complementary">
 		<?php wp_link_pages(); ?>
 		<?php edit_post_link(__('Editar', 'wbruno')); ?>
 	</footer>

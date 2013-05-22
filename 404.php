@@ -9,7 +9,7 @@
 
 get_header(); ?>
 
-	<section id="content" class="with_sidebar fleft">
+	<section id="content" class="fleft" role="main">
 		<article class="error404 post">
 			<header>
 	  			<hgroup>

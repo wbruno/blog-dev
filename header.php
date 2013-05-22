@@ -59,7 +59,7 @@
 </head>
 <body <?php body_class(); ?>>
 <div id="wrap">
-<header id="header" class="fleft">
+<header id="header" class="fleft" role="banner">
 	<div id="author-blog">
 		<h1><a href="<?php echo home_url(); ?>" id="blog_locaweb"><?php bloginfo('name'); ?></a></h1>
 
@@ -70,7 +70,7 @@
 		<span id="switch">black theme</span>
 	</div><!-- #author-blog -->
 
-	<div id="categories">
+	<div id="categories" role="navigation">
 		<?php wp_nav_menu(); ?>
 
 		<?php get_template_part('searchform') ; ?>

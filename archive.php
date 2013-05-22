@@ -19,7 +19,7 @@
 
 get_header(); ?>
 
-	<section id="content" class="fleft archive">
+	<section id="content" class="fleft archive" role="main">
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
   			<?php get_template_part( 'content' ); ?>
