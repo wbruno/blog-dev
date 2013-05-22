@@ -8,7 +8,7 @@
  */
 ?>
 
-<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
+<article <?php post_class() ?> id="post-<?php the_ID(); ?>" role="article">
 
 	<header role="heading">
 		<h1 class="entry-title" title="<?php the_title(); ?>">
