@@ -276,7 +276,7 @@ label.submit { display: inline; margin-right: 10px; }
 
 	#header { overflow: hidden; }
 	#author-blog { float: left; width: 45%; }
-	#categories { float: right; width: 45%; }
+	#header-sidebar { float: right; width: 45%; }
 
 	.textarea span { height: auto; line-height: 1.4em; }
 }
@@ -288,7 +288,7 @@ label.submit { display: inline; margin-right: 10px; }
 
 	#header img { display: block; margin: 0 auto; }
 	#author-blog,
-	#categories { float: none; width: 100%; }
+	#header-sidebar { float: none; width: 100%; }
 
 	#header form { float: none; display: block; margin-bottom: 20px; }
 	.searchform input { width: 80%; }

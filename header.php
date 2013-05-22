@@ -70,14 +70,7 @@
 		<span id="switch">black theme</span>
 	</div><!-- #author-blog -->
 
-	<div id="categories" role="navigation">
-		<?php wp_nav_menu(); ?>
-
-		<?php get_template_part('searchform') ; ?>
-
-		<h2>Categories</h2>
-		<ul>
-		<?php wp_list_categories('sort_column=name&title_li='); ?>
-		</ul>
-	</div><!-- #categories -->
+	<ul id="header-sidebar" role="navigation">
+		<?php dynamic_sidebar('header-sidebar'); ?>
+	</ul><!-- #header-sidebar -->
 </header><!-- #header -->

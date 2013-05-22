@@ -24,7 +24,11 @@
 
 
 
-if ( function_exists('register_sidebar') ) register_sidebar();
+if ( function_exists('register_sidebar') ) register_sidebar(array(
+  'name' => __( 'Header Sidebar' ),
+  'id' => 'header-sidebar',
+  'description' => __( 'Widgets in this area will be shown on the header.' )
+));
 if ( ! isset( $content_width ) ) $content_width = 1100;
 add_theme_support( 'automatic-feed-links' );
 add_theme_support( 'post-thumbnails' );
