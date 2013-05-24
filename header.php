@@ -70,7 +70,7 @@
 		<span id="switch">black theme</span>
 	</div><!-- #author-blog -->
 
-	<ul id="header-sidebar" role="navigation">
+	<ul id="header-sidebar" role="listitem">
 		<?php dynamic_sidebar('header-sidebar'); ?>
 	</ul><!-- #header-sidebar -->
 </header><!-- #header -->

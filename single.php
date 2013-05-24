@@ -9,7 +9,7 @@
 
  get_header(); ?>
 
-	<section id="content" class="single fleft">
+	<main id="content" class="single fleft">
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 			<?php get_template_part( 'content', 'single' ); ?>
@@ -23,6 +23,6 @@
 			</article>
 
 		<?php endif; ?>
-	</section><!-- #content -->
+	</main><!-- #content -->
 
 <?php get_footer(); ?>

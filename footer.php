@@ -13,7 +13,7 @@
 
 	<div class="clear"></div>
 </div><!-- #wrap -->
-<div id="wrap_footer">
+<div id="wrap-footer">
 	<footer id="footer" class="content" role="contentinfo">
 
 		<p id="copyright" class="fleft">Copyright &copy; 2012 - <?php echo date('Y'); ?></p>

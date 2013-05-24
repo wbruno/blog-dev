@@ -19,7 +19,7 @@
 
 get_header(); ?>
 
-	<section id="content" class="fleft archive" role="main">
+	<main id="content" class="fleft archive" role="main">
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
   			<?php get_template_part( 'content' ); ?>
@@ -36,5 +36,5 @@ get_header(); ?>
 			<?php posts_nav_link(' &#8212; ', __('&laquo; Anterior', 'wbruno'), __('Pr&oacute;xima &raquo;', 'wbruno')); ?>
 		</div>
 
-	</section><!-- #content -->
+	</main><!-- #content -->
 <?php get_footer(); ?>

@@ -10,8 +10,8 @@
 
 <article <?php post_class() ?> id="post-<?php the_ID(); ?>" role="article">
 
-	<header role="heading">
-		<h2 class="entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
+	<header role="banner">
+		<h2 class="entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>" role="heading" aria-level="2">
 			<?php the_title(); ?></a></h2>
 
 		<?php echo lw_date(); ?>
@@ -24,7 +24,7 @@
 		<?php the_content('Leia &raquo; ' . get_the_title() ); ?>
 
 	</div><!-- .post-content -->
-	<footer role="complementary">
+	<footer role="contentinfo">
 		<?php wp_link_pages(); ?>
 		<?php edit_post_link(__('Editar', 'wbruno')); ?>
 	</footer>

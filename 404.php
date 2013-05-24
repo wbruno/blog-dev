@@ -9,7 +9,7 @@
 
 get_header(); ?>
 
-	<section id="content" class="fleft" role="main">
+	<main id="content" class="fleft" role="main">
 		<article class="error404 post">
 			<header>
 	  			<hgroup>
@@ -24,5 +24,5 @@ get_header(); ?>
   				<?php get_template_part('searchform') ; ?>
 			</footer>
 		</article>
-	</section><!-- /content -->
+	</main><!-- /content -->
 <?php get_footer(); ?>

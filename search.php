@@ -9,7 +9,7 @@
 
 get_header(); ?>
 
-	<section id="content" class="fleft" role="main">
+	<main id="content" class="fleft" role="main">
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 			<?php get_template_part( 'content' ); ?>
@@ -31,6 +31,6 @@ get_header(); ?>
 			</article><!-- .post -->
 		<?php endif; ?>
 
-	</section><!-- #content -->
+	</main><!-- #content -->
 
 <?php get_footer(); ?>
