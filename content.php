@@ -11,8 +11,11 @@
 <article <?php post_class() ?> id="post-<?php the_ID(); ?>" role="article">
 
 	<header role="banner">
-		<h2 class="entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>" role="heading" aria-level="2">
-			<?php the_title(); ?></a></h2>
+		<h2 class="entry-title" role="heading" aria-level="2">
+			<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
+				<?php the_title(); ?>
+			</a>
+		</h2>
 
 		<?php echo lw_date(); ?>
 		<small class="fleft vcard author">por <span class="fn"><?php the_author_link(); ?></span> em <?php the_category(', ') ?></small>

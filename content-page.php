@@ -12,7 +12,8 @@
 
 	<header role="banner">
 		<h1 class="entry-title" title="<?php the_title(); ?>" role="heading" aria-level="1">
-			<?php the_title(); ?></h1>
+			<?php the_title(); ?>
+		</h1>
 		<small class="fright"><?php comments_popup_link('Nenhum coment&aacute;rio', '(1) coment&aacute;rio', '(%) coment&aacute;rios', 'comments'); ?></small>
 	</header>
 	<div class="post-content entry-content">

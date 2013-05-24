@@ -12,7 +12,8 @@
 
 	<header role="banner">
 		<h1 class="entry-title" title="<?php the_title(); ?>" role="heading" aria-level="1">
-			<?php the_title(); ?></h1>
+			<?php the_title(); ?>
+		</h1>
 
 		<?php echo lw_date(); ?>
 		<small class="fleft vcard author">por <span class="fn"><?php the_author_link(); ?></span> em <?php the_category(', ') ?></small>
