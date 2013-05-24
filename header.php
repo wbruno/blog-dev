@@ -57,7 +57,7 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/javascript/prettify.js"></script>
 
 </head>
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> role="document">
 <div id="wrap">
 <header id="header" class="fleft" role="banner">
 	<div id="author-blog">
