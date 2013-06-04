@@ -48,7 +48,8 @@ require( get_template_directory() . '/inc/custom-header.php' );
 function lw_date() {
 	global $post;
 	$ts = strtotime( $post->post_date );
-	return '<time datetime="'.get_the_time('Y-m-d').'" class="updated">'.get_the_time('d').' <span>'.get_the_time('M').' '.get_the_time('Y').'</span></time>'.PHP_EOL;
+	return '<time datetime="'.get_the_time('Y-m-d').'" class="updated">'.get_the_time('d').' <span>'.get_the_time('M').' '.get_the_time('Y').'</span>
+	</time>'.PHP_EOL;
 }
 /**
  * overwrite comments_popup_link
@@ -78,7 +79,7 @@ add_filter('wp_list_categories', 'new_wp_list_categories');
 
 add_filter( 'the_category', 'replace_cat_tag' );
 function replace_cat_tag ( $text ) {
-	$text = str_replace('rel="category tag"', "", $text); return $text;
+	$text = str_replace('rel="category"', "", $text); return $text;
 }
 
 
@@ -100,8 +101,6 @@ if (!function_exists('get_previous_posts_link_attributes')){
 		return $attr;
 	}
 }
-
-
 
 if ( ! function_exists( 'parent_comment' ) ) :
 /**
