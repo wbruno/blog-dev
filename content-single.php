@@ -19,8 +19,8 @@
 		</h2>
 
 		<?php echo lw_date(); ?>
-		<small class="fleft vcard author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-			por <span class="fn" itemprop="name"><?php the_author_link(); ?></span> 
+		<small class="fleft">
+			<span class="vcard author" itemprop="author" itemscope itemtype="http://schema.org/Person">por <span class="fn" itemprop="name"><?php the_author_link(); ?></span> </span>
 			em <span itemprop="articleSection"><?php the_category(', ') ?></span>
 		</small>
 		<small class="fright"><?php comments_popup_link('Nenhum coment&aacute;rio', '(1) coment&aacute;rio', '(%) coment&aacute;rios', 'comments'); ?></small>
