@@ -25,9 +25,9 @@
 
 
 if ( function_exists('register_sidebar') ) register_sidebar(array(
-  'name' => __( 'Header Sidebar' ),
+  'name' => __( 'Header Sidebar', 'wbruno' ),
   'id' => 'header-sidebar',
-  'description' => __( 'Widgets in this area will be shown on the header.' )
+  'description' => __( 'Widgets in this area will be shown on the header.', 'wbruno' )
 ));
 if ( ! isset( $content_width ) ) $content_width = 1100;
 add_theme_support( 'automatic-feed-links' );
