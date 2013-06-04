@@ -79,7 +79,7 @@ add_filter('wp_list_categories', 'new_wp_list_categories');
 
 add_filter( 'the_category', 'replace_cat_tag' );
 function replace_cat_tag ( $text ) {
-	$text = str_replace('rel="category"', "", $text); return $text;
+	$text = str_replace(array('rel="category"','rel="category tag"'), "", $text); return $text;
 }
 
 
