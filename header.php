@@ -29,12 +29,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="author" content="William Bruno" />
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 99fbfb6bc865cef2dfeb83cca0d22f77b54c71cd
 	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
-
 
 	<?php if (is_category() || is_tag() || is_month() || is_paged() || is_404()) { ?>
 		<link rel="canonical" href= "<?php echo home_url(); ?>"/>
@@ -51,41 +46,24 @@
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen" />
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-<<<<<<< HEAD
+
 	<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
 
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/prettify.css" />
 	<script src="<?php echo get_template_directory_uri(); ?>/javascript/prettify.js"></script>
 
-	<?php wp_head(); ?>
-=======
+    <?php wp_head(); ?>
 
-	<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
-	<?php wp_head(); ?>
-
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/prettify.css" />
-	<script src="<?php echo get_template_directory_uri(); ?>/javascript/prettify.js"></script>
-
->>>>>>> 99fbfb6bc865cef2dfeb83cca0d22f77b54c71cd
 </head>
 <body <?php body_class(); ?> role="document">
 <div id="wrap">
 <header id="header" class="fleft" role="banner">
-<<<<<<< HEAD
-
-
 	<div id="author-blog">
 		<h1><a href="<?php echo home_url(); ?>" id="blog_locaweb"><?php bloginfo('name'); ?></a></h1>
+
 
 		<img src="http://wbruno.com.br/wp-content/uploads/2014/02/67d0e7b8c79946ef6ab00c8c36b00efc.jpg" alt="<?php bloginfo('name'); ?>" width="200" />
-=======
-	<div id="author-blog">
-		<h1><a href="<?php echo home_url(); ?>" id="blog_locaweb"><?php bloginfo('name'); ?></a></h1>
-
-
-		<img src="http://www.gravatar.com/avatar/<?php echo md5(trim(get_bloginfo('admin_email'))); ?>?s=200" alt="<?php bloginfo('name'); ?>" width="200" />
->>>>>>> 99fbfb6bc865cef2dfeb83cca0d22f77b54c71cd
 		<p><?php bloginfo( 'description' ); ?></p>
 
 		<span id="switch">black theme</span>
@@ -94,8 +72,4 @@
 	<ul id="header-sidebar">
 		<?php dynamic_sidebar('header-sidebar'); ?>
 	</ul><!-- #header-sidebar -->
-<<<<<<< HEAD
 </header><!-- #header -->
-=======
-</header><!-- #header -->
->>>>>>> 99fbfb6bc865cef2dfeb83cca0d22f77b54c71cd

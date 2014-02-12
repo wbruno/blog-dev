@@ -17,11 +17,6 @@
 get_header(); ?>
 
 	<main id="content" class="fleft" role="main">
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 99fbfb6bc865cef2dfeb83cca0d22f77b54c71cd
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 			<?php get_template_part( 'content' ); ?>
@@ -40,8 +35,4 @@ get_header(); ?>
 
 	</main><!-- /content -->
 
-<<<<<<< HEAD
 <?php get_footer(); ?>
-=======
-<?php get_footer(); ?>
->>>>>>> 99fbfb6bc865cef2dfeb83cca0d22f77b54c71cd

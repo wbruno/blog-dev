@@ -23,8 +23,7 @@
 </div><!-- /wrap_footer -->
 <?php wp_footer(); ?>
 
-<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/javascript/all.js?ver=3.4.1"></script>
-<<<<<<< HEAD
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/javascript/all.min.js"></script>
 <script type="text/javascript">
     var _gaq = _gaq || [];
   
@@ -40,7 +39,3 @@
 </script>
 </body>
 </html>
-=======
-</body>
-</html>
->>>>>>> 99fbfb6bc865cef2dfeb83cca0d22f77b54c71cd
