@@ -50,11 +50,7 @@
 	<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/prettify.css" />
-	<script src="<?php echo get_template_directory_uri(); ?>/javascript/prettify.js"></script>
-
     <?php wp_head(); ?>
-
 </head>
 <body <?php body_class(); ?> role="document">
 <div id="wrap">
