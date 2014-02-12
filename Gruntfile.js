@@ -9,7 +9,7 @@ module.exports = function (grunt) {
             },
             my_target: {
                 files: {
-                    'javascript/all.min.js': ['src/javascript/all.js', 'src/javascript/prettify.js']
+                    'javascript/all.min.js': ['src/javascript/prettify.js', 'src/javascript/all.js']
                 }
             }
         },
