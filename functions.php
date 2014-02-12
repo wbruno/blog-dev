@@ -102,6 +102,7 @@ if (!function_exists('get_previous_posts_link_attributes')){
 	}
 }
 
+<<<<<<< HEAD
 /**
 * Add a rel="nofollow" to the comment reply links
 */
@@ -112,6 +113,8 @@ function add_nofollow_to_reply_link( $link ) {
 add_filter( 'comment_reply_link', 'add_nofollow_to_reply_link' );
 
 
+=======
+>>>>>>> 99fbfb6bc865cef2dfeb83cca0d22f77b54c71cd
 if ( ! function_exists( 'parent_comment' ) ) :
 /**
  * Template for comments and pingbacks.
@@ -138,7 +141,11 @@ function parent_comment( $comment, $args, $depth ) {
 
 			<time datetime="<?php echo $comment->comment_date; ?>">
 				<?php comment_date() ?>
+<<<<<<< HEAD
 				@ <a href="#comment-<?php comment_ID() ?>" rel="nofollow">
+=======
+				@ <a href="#comment-<?php comment_ID() ?>">
+>>>>>>> 99fbfb6bc865cef2dfeb83cca0d22f77b54c71cd
 				<?php comment_time() ?>
 				</a>
 			</time>
@@ -163,4 +170,8 @@ function parent_comment( $comment, $args, $depth ) {
 	endswitch;
 }
 endif;
+<<<<<<< HEAD
 ?>
+=======
+?>
+>>>>>>> 99fbfb6bc865cef2dfeb83cca0d22f77b54c71cd
