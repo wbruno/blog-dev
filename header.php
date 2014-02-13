@@ -60,9 +60,9 @@
 <header id="header" class="fleft" role="banner">
 	<div id="author-blog">
         <?php if (is_category() || is_tag() || is_month() || is_paged() || is_page() || is_single()): ?>
-		<h1 id="blog-name"><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
+            <a href="<?php echo home_url(); ?>" id="blog-name"><?php bloginfo('name'); ?></a>
         <?php else: ?>
-        <a href="<?php echo home_url(); ?>" id="blog-name"><?php bloginfo('name'); ?></a>
+            <h1 id="blog-name"><?php bloginfo('name'); ?></h1>
         <?php endif; ?>
 
 		<img src="http://wbruno.com.br/wp-content/uploads/2014/02/67d0e7b8c79946ef6ab00c8c36b00efc.jpg" alt="<?php bloginfo('name'); ?>" width="200" />
