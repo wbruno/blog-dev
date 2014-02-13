@@ -48,6 +48,8 @@ pre { font-size: 0.9em; white-space: pre-wrap; margin-bottom: 15px; }
 .content {
 
 }
+#blog-name { font-size: 2em; }
+
 .post img { max-width: 800px; height: auto !important; }
 .topo {
 	width: 81px; height: 25px; line-height: 22px;

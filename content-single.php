@@ -12,11 +12,9 @@
 <article <?php post_class() ?> id="post-<?php the_ID(); ?>" itemscope itemtype="http://schema.org/Article" role="article">
 
 	<header role="banner">
-		<h2 class="entry-title" role="heading" aria-level="2" itemprop="name">
-			<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>">
-				<?php the_title(); ?>
-			</a>
-		</h2>
+		<h1 class="entry-title" role="heading" aria-level="2" itemprop="name">
+			<?php the_title(); ?>
+		</h1>
 
 		<?php echo lw_date(); ?>
 		<small class="fleft">

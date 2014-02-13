@@ -59,8 +59,11 @@
 <div id="wrap">
 <header id="header" class="fleft" role="banner">
 	<div id="author-blog">
-		<h1><a href="<?php echo home_url(); ?>" id="blog_locaweb"><?php bloginfo('name'); ?></a></h1>
-
+        <?php if (is_category() || is_tag() || is_month() || is_paged() || is_page() || is_single()): ?>
+		<h1 id="blog-name"><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
+        <?php else: ?>
+        <a href="<?php echo home_url(); ?>" id="blog-name"><?php bloginfo('name'); ?></a>
+        <?php endif; ?>
 
 		<img src="http://wbruno.com.br/wp-content/uploads/2014/02/67d0e7b8c79946ef6ab00c8c36b00efc.jpg" alt="<?php bloginfo('name'); ?>" width="200" />
 		<p><?php bloginfo( 'description' ); ?></p>
