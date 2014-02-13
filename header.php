@@ -49,6 +49,9 @@
 
 	<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
+    <!--[if lt IE 9]>
+    <script src="http://www.pinceladasdaweb.com.br/blog/wp-content/themes/pw/javascript/html5-shiv.js"></script>
+    <![endif]-->
 
     <?php wp_head(); ?>
 </head>
