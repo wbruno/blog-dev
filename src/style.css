@@ -13,6 +13,7 @@
 * { margin: 0; padding: 0; border: none; }
 ul { list-style: none; }
 html, body { height: 100%; }
+body { background: #f0f0f0; }
 body,
 input, select, textarea {
 	font: 14px Tahoma, sans-serif;
