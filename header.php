@@ -43,6 +43,8 @@
 		<link rel="canonical" href="<?php the_permalink(); ?>" />
 	<?php } ?>
 
+    <link rel="dns-prefetch" href="http://google-analytics.com" />
+
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen" />
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
@@ -50,7 +52,7 @@
 	<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
     <!--[if lt IE 9]>
-    <script src="http://www.pinceladasdaweb.com.br/blog/wp-content/themes/pw/javascript/html5-shiv.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/src/javascript/html5-shiv.js"></script>
     <![endif]-->
 
     <?php wp_head(); ?>
